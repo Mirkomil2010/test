@@ -61,6 +61,40 @@
 
 // console.log(repeatStr(3, "ha"));
 
+// 7-savol
+// function getMiddle(s) {
+//     let len = s.length;
+//     let mid = Math.floor(len / 2);
+//     return len % 2 === 0 ? s[mid - 1] + s[mid] : s[mid];
+// }
+// console.log(getMiddle("test"));
+// console.log(getMiddle("testing"));
+
+// 8-savol
+// function findShort(s) {
+//     return Math.min(...s.split(" ").map(word => word.length));
+// }
+// console.log(findShort("I love JavaScript frontend")); 
+// console.log(findShort("Simple and easy tasks"));
+
+// 9-savol
+// function accum(s) {
+//     return s
+//         .split('')
+//         .map((ch, i) => ch.toUpperCase() + ch.toLowerCase().repeat(i))
+//         .join('-');
+// }
+// console.log(accum("abcd"));
+// console.log(accum("RqaEzty")); 
+
+// 10-savol
+// function descendingOrder(n) {
+//     return parseInt(String(n).split('').sort((a, b) => b - a).join(''));
+// }
+// console.log(descendingOrder(42145));
+// console.log(descendingOrder(145263));
+
+
 
 
 
